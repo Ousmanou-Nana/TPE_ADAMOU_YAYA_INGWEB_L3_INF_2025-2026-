@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    height: 80%;
+    font-family: Arial, sans-serif;
+    background: rgb(187, 138, 47);
+}
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+button {
+    background: greenyellow;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkorange;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    background: black;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0  5px;
+}
+footer a :hover {
+    text-decoration: underline;
+}
+main {
+    flex: 1;
+}
